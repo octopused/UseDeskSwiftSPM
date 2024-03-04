@@ -34,7 +34,7 @@ let package = Package(
             path: "",
             exclude: ["Example"],
             sources: ["UseDesk/Classes", "Core"],
-            resources: [.copy("UseDesk/Assets")]
+            resources: [.copy("UseDesk/Assets"), .copy("UseDesk/Xibs")]
         )
     ]
 )
