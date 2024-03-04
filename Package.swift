@@ -30,11 +30,7 @@ let package = Package(
                 .product(name: "Reachability", package: "Reachability.swift"),
                 .product(name: "SwiftSoup", package: "SwiftSoup"),
                 .product(name: "AsyncDisplayKit", package: "TextureSPM")
-            ],
-            path: "",
-            exclude: ["Example"],
-            sources: ["UseDesk/Classes", "Core"],
-            resources: [.copy("UseDesk/Assets"), .copy("UseDesk/Xibs")]
+            ]
         )
     ]
 )
