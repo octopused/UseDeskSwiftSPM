@@ -6,6 +6,7 @@
 import Foundation
 import UIKit
 
+@objc(SPMUDTextView)
 class UDTextView: UITextView {
     
     var isNeedCustomTextContainerInset = false

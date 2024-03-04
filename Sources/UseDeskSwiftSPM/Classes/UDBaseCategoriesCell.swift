@@ -5,6 +5,7 @@
 import Foundation
 import UIKit
 
+@objc(SPMUDBaseCategoriesCell)
 class UDBaseCategoriesCell: UITableViewCell {
     // Text
     @IBOutlet weak var labelText: UILabel!

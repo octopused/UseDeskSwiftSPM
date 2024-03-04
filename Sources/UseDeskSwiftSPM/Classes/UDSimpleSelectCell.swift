@@ -6,6 +6,7 @@
 import Foundation
 import UIKit
 
+@objc(SPMUDSimpleSelectCell)
 class UDSimpleSelectCell: UITableViewCell {
     
     @IBOutlet weak var titleLabel: UILabel!

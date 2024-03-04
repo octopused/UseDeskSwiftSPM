@@ -4,6 +4,7 @@
 import Foundation
 import UIKit
 
+@objc(SPMUDBaseSectionViewCell)
 class UDBaseSectionViewCell: UITableViewCell {
     // Icon Image
     @IBOutlet weak var iconImageView: UIImageView!

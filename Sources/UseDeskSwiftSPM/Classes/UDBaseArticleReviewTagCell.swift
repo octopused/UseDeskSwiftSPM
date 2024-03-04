@@ -5,6 +5,7 @@
 import Foundation
 import UIKit
 
+@objc(SPMUDBaseArticleReviewTagCell)
 class UDBaseArticleReviewTagCell: UICollectionViewCell {
     // Back view
     @IBOutlet weak var backView: UIView!

@@ -6,6 +6,7 @@
 import Foundation
 import UIKit
 
+@objc(SPMUDSeparatorView)
 class UDSeparatorView: UIView {
     
     override func awakeFromNib() {

@@ -6,6 +6,7 @@
 import Foundation
 import UIKit
 
+@objc(SPMUDBaseSearchCell)
 class UDBaseSearchCell: UITableViewCell {
     // Title
     @IBOutlet weak var titleLabel: UILabel!

@@ -533,6 +533,7 @@ extension UDBaseArticleReviewVC: UICollectionViewDelegate, UICollectionViewDataS
 }
 
 // MARK: - UDNextBottomButton
+@objc(SPMUDNextBottomButton)
 class UDNextBottomButton: UIButton {
     private let loader = UIActivityIndicatorView()
     private var titleBeforeShowLoader = ""

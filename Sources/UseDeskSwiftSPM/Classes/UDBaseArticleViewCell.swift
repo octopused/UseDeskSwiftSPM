@@ -4,6 +4,7 @@
 import Foundation
 import UIKit
 
+@objc(SPMUDBaseArticleViewCell)
 class UDBaseArticleViewCell: UITableViewCell {
     // Text
     @IBOutlet weak var labelText: UILabel!

@@ -12,6 +12,7 @@ protocol ChangeabelTextCellDelegate: AnyObject {
     func endWrite(indexPath: IndexPath)
 }
 
+@objc(SPMUDTextAnimateTableViewCell)
 class UDTextAnimateTableViewCell: UITableViewCell, UITextViewDelegate, UITextFieldDelegate {
 
     @IBOutlet weak var titleLabel: UILabel!

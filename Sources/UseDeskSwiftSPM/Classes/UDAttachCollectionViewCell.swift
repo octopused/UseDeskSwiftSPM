@@ -10,6 +10,7 @@ protocol UDAttachCVCellDelegate: AnyObject {
     func deleteFile(index: Int)
 }
 
+@objc(SPMUDAttachCollectionViewCell)
 class UDAttachCollectionViewCell: UICollectionViewCell {
     
     weak var delegate: UDAttachCVCellDelegate?

@@ -5,6 +5,7 @@
 
 import UIKit
 
+@objc(SPMUDAttachSmallCollectionViewCell)
 class UDAttachSmallCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var imageView: UIImageView!

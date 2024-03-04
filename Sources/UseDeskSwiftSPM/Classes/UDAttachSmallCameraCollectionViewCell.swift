@@ -6,6 +6,7 @@
 import UIKit
 import AVFoundation
 
+@objc(SPMUDAttachSmallCameraCollectionViewCell)
 class UDAttachSmallCameraCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var cameraPreviewView: UIView!
